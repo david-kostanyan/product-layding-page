@@ -3,8 +3,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap:20px;
-        
-    
     }
 }
  
@@ -36,23 +34,14 @@
 
  }
  .info-spec {
-    
     margin:10px;
     text-align:justify;
     text-shadow: 4px 4px 5px rgb(5, 245, 197);
  }
 
-
-.span-cont {
-  
-}
-
  .price {
     color: var(--header-logo);
     text-align:center;
-    
-
-
  }
 
 
