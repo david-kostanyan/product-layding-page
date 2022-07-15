@@ -10,14 +10,10 @@
     text-shadow: 4px 4px 5px rgb(5, 245, 197);
     padding: 5px;
     border-radius: 10px;
-    margin: 10px;
-   
-}
 
-.header__nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 15px auto;
+
+   
 }
 
 .header__nav-logo .img {
@@ -29,20 +25,21 @@
 
 .header__nav-namelogo{
     font-family: 'Rubik Moonrocks', cursive;
-    text-align: center;
-    margin-top: 40px;
+    align-items: center;
+  
 
 
 
 }
 
-.navbar-item {    
+.navbar-item {  
+     
     text-decoration:none;
     color: black;
     text-shadow: 4px 4px 5px rgb(5, 245, 197);
     font-family: 'Rubik Moonrocks', cursive;
     margin: 0 5px;
-    font-size: 1.5rem;
+    font-size: 20px;
  
 
 }

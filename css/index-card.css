@@ -5,6 +5,13 @@
         gap:20px;
     }
 }
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+ 
+}
  
 .container-prices {
     border: 3px solid rgb(5, 245, 197);
@@ -41,7 +48,7 @@
 
  .price {
     color: var(--header-logo);
-    text-align:center;
+    vertical-align: bottom;
  }
 
 
