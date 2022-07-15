@@ -6,131 +6,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product-lyading-page</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header class="header">
         <nav class="header__nav">
             <div class="header__nav-logo">
-                <a href="#">
-                    <img src="img/sto-logo.svg" alt="eagle" width="200" />
-                </a>
-                <h1 class="header__nav-title">Auto Motors</h1>
+                <img src="img/header-logo.jpeg" alt="car" />
+                <h1 class="header__nav-namelogo">Auto Motors</h1>
             </div>
-
             <div class="header__nav-menu">
-                <a href="">Features</a>
-                <a href="">How it Works</a>
-                <a href="">Pricing</a>
-            </div>
-            <div class="header-titel">
-                <h2 class="header-bloctitel">Repair and diagnostics of motors</h2>
-                <input type="email" placeholder="Enter your email" required />
-                <button type="submit">submit</button>
+                <a class="navbar-item" href="#Features">Features</a>
+                <a class="navbar-item" href="#How-it-Works">How it Works</a>
+                <a class="navbar-item" href="#conteiner">Pricing</a>
             </div>
         </nav>
     </header>
-
-    <main class="">
-        <div class="main-block">
-            <div class="types-of-services">
-                <div class="transmision">
-                    <img src="img/transmisiom.svg" alt="transmisiom" width="200" />
+    <main class="main__block">
+        <div class="header-titel">
+            <h2 class="header-bloctitel">Repair and diagnostics of motors</h2>
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit" class="btn-header">submit</button>
+        </div>
+        <div class="main__item">
+            <div class="item__services">
+                <div class="item__services-image">
+                    <img src="img/transmisiom.svg" alt="transmisiom" />
                 </div>
-                <h2>REPAIR AND MAINTENANCE OF AUTOMATIC GEAR</h2>
-                <p>
-                    Automatic transmission is a multi-speed transmission that does not
-                    require gear shifting while driving. Automatic transmission is the
-                    most technologically advanced unit of a modern car, which consumes a
-                    huge amount of electrical, mechanical, hydraulic and electronic
-                    components, provides a drive of the car with maximum comfort at
-                    minimum fuel consumption.
-                </p>
+                <div class="item__services-info">
+                    <h2 class="blocktitel">REPAIR AND MAINTENANCE OF AUTOMATIC GEAR</h2>
+                    <p class="item__info">
+                        Automatic transmission is a multi-speed transmission that does not
+                        require gear shifting while driving. Automatic transmission is the
+                        most technologically advanced unit of a modern car, which consumes a
+                        huge amount of electrical, mechanical, hydraulic and electronic
+                        components, provides a drive of the car with maximum comfort at
+                        minimum fuel consumption.
+                    </p>
+                </div>
             </div>
-
-            <div class="types-of-services">
-                <div class="engine">
-                    <img src="img/engine.svg" alt="engine" width="200" />
+            <div class="item__services">
+                <div class="item__services-image">
+                    <img src="img/engine.svg" alt="engine" class="engine" />
                 </div>
-                <h2>ENGINE REPAIR AND SERVICE</h2>
-                <p>
-                    On average, gasoline internal combustion engines are designed for
-                    300 thousand km. The resource of diesel engines is 400 thousand
-                    kilometers and more. There are successful engines, there are not
-                    very successful ones. But much depends on the nature of operation,
-                    quality and timeliness of car maintenance. Sooner or later, engine
-                    diagnostics and repairs are required. Overhaul is understood as the
-                    process of removing the internal combustion engine from the vehicle
-                    for subsequent complete disassembly. Automotive craftsmen inspect
-                    the cylinder block, cylinder head, crankshaft and piston group for
-                    defects. Make a conclusion and establish a list of repairs.
-                </p>
+                <div class="item__services-info">
+                    <h2 class="blocktitel">ENGINE REPAIR AND SERVICE</h2>
+                    <p class="item__info">
+                        On average, gasoline internal combustion engines are designed for
+                        300 thousand km. The resource of diesel engines is 400 thousand
+                        kilometers and more. There are successful engines, there are not
+                        very successful ones. But much depends on the nature of operation,
+                        quality and timeliness of car maintenance. Sooner or later, engine
+                        diagnostics and repairs are required. Overhaul is understood as the
+                        process of removing the internal combustion engine from the vehicle
+                        for subsequent complete disassembly. Automotive craftsmen inspect
+                        the cylinder block, cylinder head, crankshaft and piston group for
+                        defects. Make a conclusion and establish a list of repairs.
+                    </p>
+                </div>
             </div>
-
-            <div class="types-of-services">
-                <div class="chassis">
-                    <img src="img/chassis.svg" alt="chassis" width="200" />
+            <div class="item__services">
+                <div class="item__services-image">
+                    <img src="img/chassis.svg" alt="chassis" />
                 </div>
-                <h2>REPAIR AND MAINTENANCE OF THE UNDERCARRIAGE</h2>
-                <p>
-                    The chassis is one of the loaded systems of the vehicle. With the
-                    movement of the car, forces appear that act on parts and mechanisms.
-                    Wear and tear of running car components leads to the appearance of
-                    noise, vibrations, comfort and safety deteriorates. Running gear
-                    diagnostics is required even if you do not feel discomfort and do
-                    not see the reasons for contacting a service center.
-                </p>
+                <div class="item__services-info">
+                    <h2 class="blocktitel">REPAIR AND MAINTENANCE OF THE UNDERCARRIAGE</h2>
+                    <p class="item__info">
+                        The chassis is one of the loaded systems of the vehicle. With the
+                        movement of the car, forces appear that act on parts and mechanisms.
+                        Wear and tear of running car components leads to the appearance of
+                        noise, vibrations, comfort and safety deteriorates. Running gear
+                        diagnostics is required even if you do not feel discomfort and do
+                        not see the reasons for contacting a service center.
+                    </p>
+                </div>
             </div>
         </div>
-
-        <div class="fon-car">
+        <div class="center__fon">
             <img src="img/image-fon-center.jpeg" alt="orange-car" />
         </div>
-
-        <div class="conteiner">
+        <div class="conteiner" id="conteiner">
             <div class="container-prices">
                 <h3 class="blocktitle-prices">TRANSMISSION DIAGNOSTICS</h3>
-                <div class="items-info">
-                    <p>Automatic transmission diagnostics</p>
-                    <p>Automatic transmission oil change</p>
-                    <p>Changing the oil filter and automatic transmission oil</p>
-                    <p>Hardware oil change</p>
+                <div class="items__info-spec">
+                    <p class="info-spec">Automatic transmission diagnostics</p>
+                    <p class="info-spec">Automatic transmission oil change</p>
+                    <p class="info-spec">Changing the oil filter and automatic transmission oil</p>
+                    <p class="info-spec">Hardware oil change</p>
                 </div>
                 <span class="price">price/200$</span>
             </div>
-
             <div class="container-prices">
                 <h3 class="blocktitle-prices">ENGINE REPAIR AND SERVICE</h3>
-                <div class="items-info">
-                    <p>Engine Diagnostics</p>
-                    <p>Compression test</p>
-                    <p>Repair of the Head of the Cylinder Block (cylinder head)</p>
-                    <p>Engine overhaul</p>
+                <div class="items__info-spec">
+                    <p class="info-spec">Engine Diagnostics</p>
+                    <p class="info-spec">Compression test</p>
+                    <p class="info-spec">Repair of the Head of the Cylinder Block (cylinder head)</p>
+                    <p class="info-spec">Engine overhaul</p>
                 </div>
                 <span class="price">price/500$</span>
             </div>
-
             <div class="container-prices">
                 <h3 class="blocktitle-prices">REPAIR AND MAINTENANCE OF THE UNDERCARRIAGE </h3>
-                <div class="items-info">
-                    <p>Running gear diagnostics </p>
-                    <p>Ball joint replacement</p>
-                    <p>Front wheel bearing replacement</p>
-                    <p>Replacement of the bearing of a nave of a back wheel</p>
+                <div class="items__info-spec">
+                    <p class="info-spec">Running gear diagnostics </p>
+                    <p class="info-spec">Ball joint replacement</p>
+                    <p class="info-spec">Front wheel bearing replacement</p>
+                    <p class="info-spec">Replacement of the bearing of a nave of a back wheel</p>
                 </div>
                 <span class="price">price/300$</span>
             </div>
         </div>
     </main>
-    <footer class="">
-        <nav class="">
-            <div class="">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+    <footer class="footer__navigation">
+        <nav class="navigation__icons">
+            <div class="navigatiom__info">
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+                <a href="">Contact</a>
             </div>
+            <p class="more__info">Copyright 2016, Original Trombones</p>
         </nav>
-
     </footer>
 </body>
 

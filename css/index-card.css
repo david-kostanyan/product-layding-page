@@ -1,0 +1,57 @@
+@media(min-width:500px) {
+    .conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:20px;
+        
+    
+    }
+}
+ 
+.container-prices {
+    border: 3px solid rgb(5, 245, 197);
+    background-color: aqua;
+    border-radius: 30px;
+    margin: 20px  0;
+    padding: 30px 30px;
+   
+}
+
+.blocktitle-prices {
+    font-size: 30px;
+    font-family: 'Rubik Moonrocks', cursive;
+    text-shadow: 4px 4px 5px rgb(5, 245, 197);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0 ;
+    align-content: center;
+ 
+  
+
+}
+ .items__info-spec {
+    font-size: 10px;
+    margin: 20px  0 20px 0;
+
+ }
+ .info-spec {
+    
+    margin:10px;
+    text-align:justify;
+ }
+
+
+.span-cont {
+  
+}
+
+ .price {
+    color: var(--header-logo);
+    text-align:center;
+    
+
+
+ }
+
+
+
