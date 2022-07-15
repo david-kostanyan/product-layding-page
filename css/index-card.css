@@ -32,12 +32,14 @@
  .items__info-spec {
     font-size: 10px;
     margin: 20px  0 20px 0;
+    
 
  }
  .info-spec {
     
     margin:10px;
     text-align:justify;
+    text-shadow: 4px 4px 5px rgb(5, 245, 197);
  }
 
 
