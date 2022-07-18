@@ -1,3 +1,29 @@
+.header-titel{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+    
+    
+
+}
+
+
+.header-bloctitel{
+    font-family: 'Rubik Moonrocks', cursive;
+    color: black;
+    text-align: center;
+    text-shadow: 4px 4px 5px rgb(5, 245, 197);
+    
+
+
+   
+
+}
+
+
+
 @media(min-width:500px) {
     .item__services {
         display: flex;
@@ -14,9 +40,6 @@
 
 
 .item__services-image {
-    text-shadow: 4px 4px 5px rgb(5, 245, 197);
-    
-    /* width: 200px; */
     margin: 25px;
     background-color: var(--top-color);
     border-radius: 20px;
@@ -26,7 +49,7 @@
     font-family: 'Rubik Moonrocks', cursive;
     text-shadow: 4px 4px 5px rgb(5, 245, 197);
 
-    ;
+
 }
 
    
